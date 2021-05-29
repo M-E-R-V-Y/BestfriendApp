@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ID Class Selector</title>
+    <title>Best friend application Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ID Class Selector</h1>
-    <div>1</div>
-    <div class="red-box">2</div>
-    <div>3</div>
-    <div id="box4">4</div>
-    <div class="red-box">5</div>
-    <div>6</div>
+<section>
+    <div>
+        <h1>Best Friend Application</h1>
+        <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="hello-minion">
+        <p>
+            Hey there! I need a new best friend... because the last one escaped :)
+            Not my fault though,I'm a little moody,but super cool!
+        </p>
+        <h3>
+            Wanna be friend?
+        </h3>
+    </div>
+    <form action="mailto:"pmoutta@synopsys.com?Subject=my best friend Application" method="POST"enctype="text/plain">
+    <label for="name">What's your name ?</label>
+    <input type="text" name="name" id="name"placeholder="mervyn">
+    <label for="nickname">What do you want me to call your as? </label>
+    <input type="text" name="nickname" id="nickname"placeholder="mervyn">
+    <label for="age">What's your age?</label>
+    <br>
+    <input type="number"name="age" id="age" min="11" max="13">
+    <label for="superhero">Who is your favorite superhero?</label>
+    <br>
+    <input type="checkbox" name="IronMan" id="IronMan">
+    <label for="IronMan">IronMan</label>
+    <input type="checkbox" name="superman" id="superman">
+    <label for="superman">superman</label>
+    <input type="checkbox" name="BatMan" id="BatMan">
+    <label for="BatMan">BatMan</label>
+    <br>
+    <label for="why">Why do you wanna be friends with me?</label>
+    <textarea name="why" id="why" cols="30" rows="">I want to be friends with you because....</textarea>
+<input type="submit" value="LET'S BE FRIENDS">
+
+
+    </form>
+</section>
+  
+    
 </body>
 </html>
